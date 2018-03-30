@@ -1,0 +1,71 @@
+#logo {
+	height:250px;
+	width:400px;
+	position: relative;
+	top: 50px;
+	left: 450px;
+}
+.search {
+	line-height: 200px;
+	position: relative;
+	top: -70px;
+	left: 27%;
+}
+input {
+	width: 600px;
+	height: 35px;
+	font-size: 35px;
+	border: 2px solid rgba(222, 213, 213, 0.7);
+
+}
+.nav {
+	list-style-type: none;
+   	overflow: hidden;
+	display: block;
+}
+.botNav {
+	margin: 0px;
+	position: relative;
+	bottom: -43px;
+	background-color: rgb(236, 236, 236);
+	list-style-type: none;
+	overflow: hidden;
+}
+.botNav li {
+	color: white;
+}
+li {
+	color: black;
+	font-family: sans-serif;
+	float: right;
+	padding: 10px;
+	font-size: 12px;
+}
+.left {
+	margin: 0;
+	float:left;
+
+}
+
+li a {
+	text-decoration: none;
+}
+.mainButton {
+	border-style: none;
+	width: 150px;
+	height: 35px;
+	position: relative;
+	top: -130px;
+	left: 500px;
+	font-weight: 600;
+	font-size: 14px;
+	color: rgb(129, 130, 127);
+	background-color:rgba(211, 214, 208, 0.33);
+}
+.mainButton:hover {
+	font-size: 14px;
+	border: 1px solid rgba(182, 179, 179, 0.57);
+	color: rgb(93, 94, 91);
+	background-color:rgba(202, 205, 199, 0.33);
+	font-weight: 900;
+}
